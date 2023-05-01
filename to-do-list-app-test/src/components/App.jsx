@@ -7,7 +7,7 @@ import styles from "../css/App.module.css";
 
 import TodoList from "./TodoList";
 // eslint-disable-next-line
-import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
   const navigate = useNavigate();

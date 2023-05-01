@@ -5,7 +5,7 @@ import { selectFilteredTodos } from "../redux-selector/todoSelector";
 import { deleteTodo, fetchAllTodo, putTodo } from "../redux-thunk/todoThunk";
 import { DefaultFilter, SortBy } from "../utils/global";
 // eslint-disable-next-line
-import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 import styles from "../css/TodoList.module.css";
 

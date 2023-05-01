@@ -8,7 +8,7 @@ import {
   IoArrowBackOutline,
 } from "react-icons/io5";
 // eslint-disable-next-line
-import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 import styles from "../css/Todo.module.css";
 
