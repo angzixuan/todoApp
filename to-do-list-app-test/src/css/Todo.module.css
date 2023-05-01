@@ -1,0 +1,88 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: rgb(180, 182, 218);
+  background: radial-gradient(
+    circle,
+    hsla(237, 34%, 78%, 0.9) 0%,
+    hsla(219, 88%, 94%, 0.9) 100%
+  );
+
+  margin: 0 1rem 1rem 0;
+  height: 12rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+
+  position: relative;
+}
+
+.cardName {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  resize: none;
+  border: none;
+  max-width: fit-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardDescription {
+  color: "gray";
+  font-weight: lighter;
+  background-color: transparent;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
+  border: none;
+  max-height: 35%;
+  overflow: hidden;
+  resize: none;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.cardButtons {
+  position: absolute;
+  bottom: 0.6rem;
+  right: 0.3rem;
+}
+
+.cardButtons button {
+  border-radius: 20%;
+  border: none;
+  margin: 0 0.6rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #271c6c;
+  background-color: transparent;
+}
+
+.cardButtons button:focus {
+  outline: none;
+}
+
+.statusIndicator {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.3rem;
+  border: 2px solid #272727;
+  color: #e1ebfd;
+
+  font-size: 0.8rem;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+}
+
+.dueDateIndicator {
+  position: absolute;
+  right: 0.3rem;
+  top: 1.7rem;
+  border: 2px solid #272727;
+  color: #e1ebfd;
+  background-color: #867bcd;
+
+  font-size: 0.8rem;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+}

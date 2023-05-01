@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{838E117F-443F-49A5-A11C-3139F61724D5}|http" GitUserInfo="UsingGIT">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TodoAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TodoAPI/Service/TodoDBService.cs">
+    <Files>
+      <File FileName="TodoAPI/Service/MongoService.cs" Line="23" Column="51" />
+      <File FileName="TodoAPI/Program.cs" Line="38" Column="1" />
+      <File FileName="TodoAPI/Service/TodoDBService.cs" Line="32" Column="12" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TodoAPI" expanded="True">
+            <Node name="TodoAPI" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Service" expanded="True">
+                <Node name="TodoDBService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="TodoAPI" expanded="True" selected="True">
+            <Node name="TodoAPI" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
