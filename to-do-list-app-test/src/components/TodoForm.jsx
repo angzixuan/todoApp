@@ -24,6 +24,7 @@ const TodoForm = () => {
     if (location.state) {
       setTodo(location.state);
       setDate(new Date(location.state.dueDate));
+      setSelectedOption(location.state.status);
     }
   }, [location.state]);
 
